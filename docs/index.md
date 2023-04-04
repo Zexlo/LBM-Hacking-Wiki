@@ -5,6 +5,6 @@ We're dedicated to bringing you the absolute best and most accurate resources fo
 
 Feel free to have a look around at our documentation, tutorials, tools, and other goodies that will be of great help when modding Luigi's Mansion.
 
-And be sure to let us know if you have any suggestions, concerns, or improvements! :)
+And be sure to let us know if you have any suggestions, concerns, or improvements!
 
 // LBM Staff
