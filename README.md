@@ -1,1 +1,1 @@
-# Main
+![](https://media.discordapp.net/attachments/967653073088561184/1092217263735709816/8D2D5220-F52F-4268-AA5B-ADF5589D4300.png)
