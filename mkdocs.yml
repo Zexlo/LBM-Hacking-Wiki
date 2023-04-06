@@ -1,9 +1,19 @@
 site_name: LBM Wiki
+nav:
+    - Home: index.md
+    - Documentation: index_documentation.md
+    - Tutorials: index_tutorials.md
+    - Tools: index_tools.md
+    - Game Knowledge: index_gameknowledge.md
 theme:
   name: material
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
+    - navigation.indexes
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -32,6 +42,7 @@ extra:
       link: https://discord.gg/GxsTvGABFC
       
 markdown_extensions:
+  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
