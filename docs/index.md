@@ -7,4 +7,4 @@ Feel free to have a look around at our documentation, tutorials, tools, and othe
 
 And be sure to let us know if you have any suggestions, concerns, or improvements!
 
-// LBM Staff
+- LBM Staff
