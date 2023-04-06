@@ -1,7 +1,7 @@
 To get started, there are a few tools we suggest getting your hands on. Each hyperlink below will lead you to a page with some more information about each tool/program, as well as where to download it.
 
 ##Bare Minimum
-- Dolphin Emulator
+- [Dolphin Emulator](https://www.lbmwiki.net/tools/dolphin))
 - XDelta UI Patcher
 - GCRebuilder
 
@@ -13,6 +13,6 @@ To get started, there are a few tools we suggest getting your hands on. Each hyp
 - LMTextureInjector
 - TrashPRM
 
-For a full list of tools, [check out the tools page](https://www.lbmwiki.net/index_tools.md).
+For a full list of tools, [check out the tools page](https://www.lbmwiki.net/index_tools).
 
 ###[< Back](01_Patches.md) | [Next >](03_Root_Extraction.md)

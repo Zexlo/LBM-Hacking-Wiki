@@ -1,5 +1,5 @@
 Below are a list of Luigi's Mansion modding tools and related programs. 
-If you are unsure of what to start with, [check out the tutorials](https://www.lbmwiki.net/index_tutorials.md).
+If you are unsure of what to start with, [check out the tutorials](https://www.lbmwiki.net/index_tutorials).
 
 - ArcExtract - For ARC/SZP files.
 - Archivah - GUI-based editing of ARC/SZP files.
