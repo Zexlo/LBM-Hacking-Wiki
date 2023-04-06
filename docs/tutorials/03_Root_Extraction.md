@@ -1,7 +1,9 @@
+#03 - Root Extraction
+
 !!! info "Note"
 	This guide uses GCRebuilder, as mentioned in the previous section. Some may prefer to use DAT Texture Wizard, but this tutorial does not cover using it.
 
-First, you need a Luigi's Mansion ISO file. We cannot provide the file to you, but you can either dump your personal disc, or find a copy elsewhere.
+First, you need a Luigi's Mansion ISO file. We **cannot** provide the file to you, but you can either dump your personal disc, or find a copy elsewhere.
 
 ##Exporting
 
@@ -17,4 +19,4 @@ After that, navigate to Root → Save to convert those files back into a disc im
 
 Then you're ready to run your hack in Dolphin, or on actual hardware, like via Nintendont or Swiss.
 
-###[< Back](https://www.lbmwiki.net/tutorials/02_Recommended_Tools) | [Next >](https://www.lbmwiki.net/tutorials/04_Dolphin_Setup)
+###[:material-arrow-left-bold-box: Back](02_Recommended_Tools.md) | [Next :material-arrow-right-bold-box:](04_Dolphin_Setup.md)

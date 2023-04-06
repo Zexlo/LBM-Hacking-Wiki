@@ -6,9 +6,9 @@ Below is a list of tutorials for modding and related software.
 - 01 - [ROM Hack Patches](tutorials/01_Patches.md)
 - 02 - [Recommended Tools](tutorials/02_Recommended_Tools.md)
 - 03 - [Root Extraction](tutorials/03_Root_Extraction.md)
-- 04 - Typical Dolphin Setup
-- 05 - Extracting/Packing SZP Files
-- 06 - TBD
+- 04 - [Typical Dolphin Setup](tutorials/04_Dolphin_Setup.md)
+- 05 - [Extracting/Packing SZP Files](tutorials/05_SZP_Files.md)
+- 06 - [TBD](tutorials/06_TBD.md)
 - 07 - TBD
 - 08 - TBD
 
