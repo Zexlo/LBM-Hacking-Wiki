@@ -27,6 +27,7 @@ Below is a list of tutorials for modding and related software.
 - Editing Sounds
 - Custom Events
 - Particle Effects
+- Texture Editing
 
 
 
