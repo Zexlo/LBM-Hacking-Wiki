@@ -19,12 +19,14 @@ If it returns saying it's a 'bad dump', then you must find another clean ISO thr
 	If you are using a PAL rom, make sure it is the PAL 1.01 revision, as all hosted PAL mods use it.
 
 After that, applying the patch is handled by xdelta UI, as shown below:
+![ ](https://www.lbmwiki.net/assets/xdelta_apply.png){ height='400" }
 
 To apply patches, select your .xdelta patch file, then your source ISO or GCM file, and then for the output, manually type in .iso at the end of the filename.
 
 ##For Modders
 
 Creating a patch is as follows:
+![ ](assets/xdelta_create){:style="height:283px;width:468px"}
 
 To create a patch, select the vanilla, unaltered game ISO, your modded ISO, and then save the file. It will output as a .xdelta file.
 
@@ -32,4 +34,4 @@ To create a patch, select the vanilla, unaltered game ISO, your modded ISO, and 
 	If you intend on modding the PAL version, we highly recommend using PAL 1.01; all of our hosted PAL hacks are based on this version.
 	
 	
-###[Next >](02_Recommended_Tools.md)
+###[Next >](https://www.lbmwiki.net/tutorials/02_Recommended_Tools)

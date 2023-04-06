@@ -15,4 +15,4 @@ To get started, there are a few tools we suggest getting your hands on. Each hyp
 
 For a full list of tools, [check out the tools page](https://www.lbmwiki.net/index_tools).
 
-###[< Back](01_Patches.md) | [Next >](03_Root_Extraction.md)
+###[< Back](https://www.lbmwiki.net/tutorials/01_Patches) | [Next >](https://www.lbmwiki.net/tutorials/03_Root_Extraction)
