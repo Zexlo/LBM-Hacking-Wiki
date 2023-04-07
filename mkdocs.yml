@@ -1,10 +1,15 @@
 site_name: LBM Hacking Wiki
 nav:
+  - Home:
     - Home: index.md
-    - Documentation: index_documentation.md
-    - Tutorials: index_tutorials.md
-    - Tools: index_tools.md
-    - Game Knowledge: index_gameknowledge.md
+  - Documentation:
+    - Events: index_documentation.md
+    - JMP Tables: index_tutorials.md
+    - Maps: index_tools.md
+    - Parameter files: index_gameknowledge.md
+
+  - Tutorials:
+    - Home Page: index_2.md
 theme:
   name: material
   logo: assets/favicon.png
@@ -14,7 +19,6 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
