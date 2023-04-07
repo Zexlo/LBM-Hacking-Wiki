@@ -9,8 +9,8 @@ Below is a list of tutorials for modding and related software.
 - 04 - [Typical Dolphin Setup](tutorials/04_Dolphin_Setup.md)
 - 05 - [Extracting/Packing SZP Files](tutorials/05_SZP_Files.md)
 - 06 - [TBD](tutorials/06_TBD.md)
-- 07 - TBD
-- 08 - TBD
+- 07 - [TBD](tutorials/07_TBD.md)
+- 08 - [TBD](tutorials/08_TBD.md)
 
 ##Specific Tutorials
 
