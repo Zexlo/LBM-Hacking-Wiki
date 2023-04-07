@@ -4,8 +4,9 @@
 ## File Formats
 Luigi's Mansion has a few proprietary file formats, some of which were used in other Nintendo games, while others are unique to this game in particular. Information about each can be found below.
 
-- [JMP - Tracks character, enemy, furniture, and object info for each map.](gameknowledge/file_formats/JMP.md)
-- [TXP - For animating texture patterns by switching texture indices in MDL file materials.](gameknowledge/file_formats/TXP.md)
+[JMP - Tracks character, enemy, furniture, and object info for each map.](gameknowledge/file_formats/JMP.md){ .md-button } 
+
+[TXP - For animating texture patterns by switching texture indices in MDL file materials.](gameknowledge/file_formats/TXP.md){ .md-button } 
 
 ##JMP
 ###Observers
@@ -17,6 +18,17 @@ Think of them like an invisible eye that consistently monitors what condition ne
 They are used for everything from making ghosts spawn to making the lights turn on when you've captured all the ghosts in a room.
 
 Let's look at an example:
+
+!!! example " diagram"
+
+	``` mermaid
+	graph LR
+	A[Start] --> B{All ghosts caught?};
+	B -->|No| C[Go back to start];
+	C --> A;
+	B ---->|Yes| E[Turn on lights];
+	```
+
 	
 1. The observer will ask the game a "question" (Eg: "Have all the candles in this room been blown out?") - In programming terms these "questions" are known as Conditions.
 2. The game itself will reply with an "answer" of either True (Yes) or False (No). - In programming terms these "answers" are known as bool's / Booleans.
