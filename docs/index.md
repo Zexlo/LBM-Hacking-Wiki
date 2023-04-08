@@ -3,7 +3,7 @@ hide:
   - navigation
   - toc
 ---
-###### ![](assets/welcome.png) { align=center }
+###### ![](assets/welcome1.png) { align=center }
 <figure Markdown>
 # Welcome to the<br>**Luigi's Bigger Mansion Wiki!**
 ###Covering Luigi's Mansion modding since 2005.
