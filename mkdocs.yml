@@ -4,10 +4,11 @@ nav:
     - Home: index.md
   - Documentation:
     - Main: documentation.md
-    - Events: Events/Events.md
-    - JMP Tables: Events/JMP_list.md
-    - Locations & Doors: Events/Location_doors.md
-    - Parameter files: Events/Param_file.md
+    - Events: documentation/Events.md
+    - JMP Tables: documentation/JMP.md
+    - Flags: flags.md
+    - Locations & Doors: documentation/Maps_Rooms_Doors.md
+    - Parameter files: documentation/Parameters.md
   - Tutorials:
     - Main: tutorials.md
   - Game Knowledge: gameknowledge.md
