@@ -23,12 +23,13 @@ Below is a list of tutorials for modding and related software.
 === "Specific Tutorials"
     ##Tutorials for hacking specific things
 
-    1. How to Create Custom Furniture
-    2. How to Change the GameID
-    3. How to Edit Textures for Luigi, Poltergust, and Mario
-    4. How to Make Fire Elemental Ghosts Sparkle
-    5. How to Restore the Beta Flashlight
-    6. How to Restore the Unused GameBoy Horror Camera
+	1. [How to Change Ghost Colors](tutorials/09_Ghost_Color.md)
+    2. How to Create Custom Furniture
+    3. How to Change the GameID
+    4. How to Edit Textures for Luigi, Poltergust, and Mario
+    5. How to Make Fire Elemental Ghosts Sparkle
+    6. How to Restore the Beta Flashlight
+    7. How to Restore the Unused GameBoy Horror Camera
 
 === "General Tutorials"
     ##General Hacking Tutorials
