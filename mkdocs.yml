@@ -29,6 +29,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+  custom_dir: docs/overrides    
   language: en
   palette:
 
