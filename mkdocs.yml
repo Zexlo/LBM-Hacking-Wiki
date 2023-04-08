@@ -5,16 +5,10 @@ nav:
   - Documentation:
     - Main: documentation.md
     - Events: documentation/Events.md
-<<<<<<< HEAD
-    - JMP Tables: documentation/JMP_list.md
-    - Locations & Doors: documentation/Location_doors.md
-    - Parameter files: documentation/Param_file.md
-=======
     - JMP Tables: documentation/JMP.md
     - Flags: documentation/Flags.md
     - Locations & Doors: documentation/Maps_Rooms_Doors.md
     - Parameter files: documentation/Parameters.md
->>>>>>> dbf2698e3ca4f28f55ce53e515ebbc665cd4f2a5
   - Tutorials:
     - Main: tutorials.md
     - Set-up: tutorials/Setup.md
@@ -38,7 +32,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    - content.tabs.link 
+  custom_dir: docs/overrides    
   language: en
   custom_dir: docs/overrides  
   palette:
