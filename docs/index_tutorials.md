@@ -1,33 +1,43 @@
+---
+hide:
+  - toc
+---
+<figure markdown> 
 # Tutorials 
 Below is a list of tutorials for modding and related software.
+</figure>
 
-##Getting Started
 
-- 01 - [ROM Hack Patches](tutorials/01_Patches.md)
-- 02 - [Recommended Tools](tutorials/02_Recommended_Tools.md)
-- 03 - [Root Extraction](tutorials/03_Root_Extraction.md)
-- 04 - [Typical Dolphin Setup](tutorials/04_Dolphin_Setup.md)
-- 05 - [Extracting/Packing SZP Files](tutorials/05_SZP_Files.md)
-- 06 - [TBD](tutorials/06_TBD.md)
-- 07 - TBD
-- 08 - TBD
+=== "Set-up"
+    ##Getting Started with hacking LM
+    
+    1. [ROM Hack Patches](tutorials/01_Patches.md)
+    2. [Recommended Tools](tutorials/02_Recommended_Tools.md)
+    3. [Root Extraction](tutorials/03_Root_Extraction.md)
+    4. [Typical Dolphin Setup](tutorials/04_Dolphin_Setup.md)
+    5. [Extracting/Packing SZP Files](tutorials/05_SZP_Files.md)
+    6. [TBD](tutorials/06_TBD.md)
+    7. [TBD](tutorials/07_TBD.md)
+    8. [TBD](tutorials/08_TBD.md)           
 
-##Specific Tutorials
+=== "Specific Tutorials"
+    ##Tutorials for hacking specific things
 
-- How to Create Custom Furniture
-- How to Change the GameID
-- How to Edit Textures for Luigi, Poltergust, and Mario
-- How to Make Fire Elemental Ghosts Sparkle
-- How to Restore the Beta Flashlight
-- How to Restore the Unused GameBoy Horror Camera
+    1. How to Create Custom Furniture
+    2. How to Change the GameID
+    3. How to Edit Textures for Luigi, Poltergust, and Mario
+    4. How to Make Fire Elemental Ghosts Sparkle
+    5. How to Restore the Beta Flashlight
+    6. How to Restore the Unused GameBoy Horror Camera
 
-##General Tutorials
+=== "General Tutorials"
+    ##General Hacking Tutorials
 
-- Editing Models
-- Editing Sounds
-- Custom Events
-- Particle Effects
-- Texture Editing
+    1. Editing Models
+    2. Editing Sounds
+    3. Custom Events
+    4. Particle Effects
+    5. Texture Editing
 
 
 

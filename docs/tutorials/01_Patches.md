@@ -36,4 +36,4 @@ Either way, you need to make sure that you have dumped (or acquired) a known-goo
 	!!! warning "Warning"
 		If you intend on modding the PAL version, we highly recommend using PAL 1.01; all of our hosted PAL hacks are based on this version.
 		
-###[Next :material-arrow-right-bold-box:](02_Recommended_Tools.md)
+###[Next :material-arrow-right-bold-box:](02_Recommended_Tools.md) { align=center }
