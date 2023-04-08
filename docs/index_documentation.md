@@ -1,6 +1,13 @@
+---
+hide:
+  - toc
+---
+<figure markdown> 
 # Documentation
+</figure>
+In this section you can find information on various aspects of LM to help you understand and hack the game, this includes info on ghosts, parameters, doors, maps/rooms, scripting, music, dialog and more.
 
-=== "Events"
+<!-- === "Events"
 
     - Event List
     - Flags
@@ -79,4 +86,4 @@
     - CTP Parameters
     - Attack Types
     - Fleeing Types
-    - TH Parameters
+    - TH Parameters -->

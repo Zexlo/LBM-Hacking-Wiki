@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 !!! warn "Note"
 	This page should be considered as a work in progress. Generally, this should help with understanding how various parts of the game work, and that understanding may not always be 100% correct.
 

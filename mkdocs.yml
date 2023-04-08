@@ -3,13 +3,13 @@ nav:
   - Home:
     - Home: index.md
   - Documentation:
-    - Events: index_documentation.md
-    - JMP Tables: index_tutorials.md
-    - Maps: index_tools.md
-    - Parameter files: index_gameknowledge.md
-
+    - Main: index_documentation.md
+    - Events: Events/Events.md
+    - JMP Tables: Events/JMP_list.md
+    - Locations & Doors: Events/Location_doors.md
+    - Parameter files: Events/Param_file.md
   - Tutorials:
-    - Home Page: index_2.md
+    - Main: index_tutorials.md
 theme:
   name: material
   logo: assets/favicon.png
@@ -19,6 +19,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
+    #- navigation.footer 
     - navigation.top
     - search.suggest
     - search.highlight
@@ -27,12 +28,14 @@ theme:
     - content.code.copy
   language: en
   palette:
+
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: teal
-      accent: purple 
+      accent: purple
+
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
@@ -40,10 +43,14 @@ theme:
       primary: teal
       accent: lime
 
+#repo_name: Luigi's Bigger Mansion/Wiki
+#repo_url: https://github.com/Luigi-s-Bigger-Mansion/Wiki
+
 extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/GxsTvGABFC
+      name: Luigi's Bigger Mansion Discord
       
 markdown_extensions:
   - attr_list

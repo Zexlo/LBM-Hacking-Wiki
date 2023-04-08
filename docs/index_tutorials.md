@@ -1,6 +1,11 @@
+---
+hide:
+  - toc
+---
+<figure markdown> 
 # Tutorials 
 Below is a list of tutorials for modding and related software.
-
+</figure>
 
 
 === "Set-up"
@@ -13,7 +18,7 @@ Below is a list of tutorials for modding and related software.
     5. [Extracting/Packing SZP Files](tutorials/05_SZP_Files.md)
     6. [TBD](tutorials/06_TBD.md)
     7. [TBD](tutorials/07_TBD.md)
-    8. [TBD](tutorials/08_TBD.md)
+    8. [TBD](tutorials/08_TBD.md)           
 
 === "Specific Tutorials"
     ##Tutorials for hacking specific things
