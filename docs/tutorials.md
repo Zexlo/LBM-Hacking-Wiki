@@ -39,7 +39,3 @@ Below is a list of tutorials for modding and related software.
     3. Custom Events
     4. Particle Effects
     5. Texture Editing
-
-
-
-
