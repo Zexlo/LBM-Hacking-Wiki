@@ -7,83 +7,96 @@ hide:
 </figure>
 In this section you can find information on various aspects of LM to help you understand and hack the game, this includes info on ghosts, parameters, doors, maps/rooms, scripting, music, dialog and more.
 
-<!-- === "Events"
+=== "Events"
+
+    <figure markdown>
 
     - Event List
+
     - Flags
+
     - Script Tags
+
     - BGM List
+
     - Camera Types
+
     - Dialog Box Colors
+
     - Font Colors
+
     - SFX List
+    </figure>
 
 === "JMP (Jump Tables)"
 
-    ^^Characterinfo / Teidencharacterinfo^^
+    === "Actor data"
+        <figure markdown> 
+        ^^Characterinfo / Teidencharacterinfo^^
 
-    - Actor List
+         Actor List
 
-    ^^Enemyinfo / Teidenenemyinfo^^
+        ^^Enemyinfo / Teidenenemyinfo^^
 
-    - Ghost Move Types
+        Ghost Move Types
+        </figure>
 
-    ^^Eventinfo^^
+    === "Event data"
+        <figure markdown> 
+        ^^Eventinfo^^
 
-    - EventIf Types
+        EventIf Types
+        </figure>
 
-    ^^Furnitureinfo^^
+    === "Furniture data"
+        <figure markdown> 
+        ^^Furnitureinfo^^
 
-    - Furniture Money
-    - Furniture Sheets
-    - Furniture Sounds
-    - Move Types
+        Furniture Money
 
-    ^^Generatorinfo^^
+        Furniture Sheets
 
-    - Generator Types
+        Furniture Sounds
+        
+        Move Types
+        </figure>
 
-    ^^Itemappeartable / itemfishingtable^^
+    === "Dialog Colors"
 
-    ^^Inteminfotable^^
+    === "Font Colors"
 
-    - Item Types
-    
-    ^^Iyapootable^^
+    === "Event list"
 
-    ^^Keyinfo / Teidenkeyinfo^^
+    === "Flags"
 
-    ^^Objinfo^^
+    === "Camera Types"
 
-    - Objects List
-    - Candle Types
+    === "Script Tags" 
 
-    ^^Observerinfo / Teidenobserverinfo^^
-
-    - Cond Types
-    - Do Types
-
-    ^^Polygoninfo / Soundpolygoninfo^^
-
-    ^^Railinfo^^
-
-    ^^Roominfo^^
-    
-    - Lv Colors
-
-    ^^Telesa^^
-
-    ^^Treasuretable^^
 
 === "Maps, Rooms, and Doors"
+
+    <figure markdown> 
+
     - Map & Room List
+
     - Room Adjacency List
+
     - Door List
+
     - Door Loading List
+
     - Door Models
 
 === "Parameter Files"
+
+    <figure markdown>
+
     - CTP Parameters
+
     - Attack Types
+
     - Fleeing Types
-    - TH Parameters -->
+
+    - TH Parameters
+

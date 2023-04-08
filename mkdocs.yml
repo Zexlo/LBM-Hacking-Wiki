@@ -4,12 +4,15 @@ nav:
     - Home: index.md
   - Documentation:
     - Main: documentation.md
-    - Events: Events/Events.md
-    - JMP Tables: Events/JMP_list.md
-    - Locations & Doors: Events/Location_doors.md
-    - Parameter files: Events/Param_file.md
+    - Events: documentation/Events.md
+    - JMP Tables: documentation/JMP_list.md
+    - Locations & Doors: documentation/Location_doors.md
+    - Parameter files: documentation/Param_file.md
   - Tutorials:
     - Main: tutorials.md
+    - Set-up: tutorials/Setup.md
+    - General tutorials: tutorials/General.md
+    - Specific tutorials: tutorials/Specific.md 
   - Game Knowledge: gameknowledge.md
   - Tools: tools.md
 theme:
@@ -28,7 +31,9 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.tabs.link 
   language: en
+  custom_dir: docs/overrides  
   palette:
 
     - scheme: default
@@ -47,7 +52,10 @@ theme:
 
 #repo_name: Luigi's Bigger Mansion/Wiki
 #repo_url: https://github.com/Luigi-s-Bigger-Mansion/Wiki
-      
+
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - attr_list
   - pymdownx.critic
@@ -57,6 +65,7 @@ markdown_extensions:
   - pymdownx.tilde
   - md_in_html
   - def_list
+  - abbr
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
