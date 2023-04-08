@@ -11,9 +11,6 @@ nav:
     - Parameter files: documentation/Parameters.md
   - Tutorials:
     - Main: tutorials.md
-    - Set-up: tutorials/Setup.md
-    - General tutorials: tutorials/General.md
-    - Specific tutorials: tutorials/Specific.md 
   - Game Knowledge: gameknowledge.md
   - Tools: tools.md
 theme:
@@ -34,7 +31,6 @@ theme:
     - content.code.copy
   custom_dir: docs/overrides    
   language: en
-  custom_dir: docs/overrides  
   palette:
 
     - scheme: default

@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - navigation
 ---
 
 Below is a list of Luigi's Mansion modding tools and related programs. 
