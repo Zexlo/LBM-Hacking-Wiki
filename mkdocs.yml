@@ -1,15 +1,17 @@
-site_name: LBM Hacking Wiki
+site_name: LBM Wiki
 nav:
   - Home:
     - Home: index.md
   - Documentation:
-    - Main: index_documentation.md
+    - Main: documentation.md
     - Events: Events/Events.md
     - JMP Tables: Events/JMP_list.md
     - Locations & Doors: Events/Location_doors.md
     - Parameter files: Events/Param_file.md
   - Tutorials:
-    - Main: index_tutorials.md
+    - Main: tutorials.md
+  - Game Knowledge: gameknowledge.md
+  - Tools: tools.md
 theme:
   name: material
   logo: assets/favicon.png
@@ -45,12 +47,6 @@ theme:
 
 #repo_name: Luigi's Bigger Mansion/Wiki
 #repo_url: https://github.com/Luigi-s-Bigger-Mansion/Wiki
-
-extra:
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/GxsTvGABFC
-      name: Luigi's Bigger Mansion Discord
       
 markdown_extensions:
   - attr_list
