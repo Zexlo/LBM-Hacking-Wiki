@@ -1,7 +1,5 @@
 #TXP
-	
-##Author(s)
-opeyx
+
 
 ##Description
 TXP files are used for texture pattern animations, switching sampler indices used for a particular material. Both are found instead of MDL files.

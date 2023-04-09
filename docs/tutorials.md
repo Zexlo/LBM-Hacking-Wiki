@@ -16,7 +16,7 @@ Below is a list of tutorials for modding and related software.
     3. [Root Extraction](tutorials/03_Root_Extraction.md)
     4. [Typical Dolphin Setup](tutorials/04_Dolphin_Setup.md)
     5. [Extracting/Packing SZP Files](tutorials/05_SZP_Files.md)
-    6. [TBD](tutorials/06_TBD.md)
+    6. [Using HxD](tutorials/06_Using_HxD.md)
     7. [TBD](tutorials/07_TBD.md)
     8. [TBD](tutorials/08_TBD.md)           
 
