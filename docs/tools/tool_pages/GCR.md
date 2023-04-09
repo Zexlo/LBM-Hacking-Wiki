@@ -1,6 +1,6 @@
 #GCRebuilder
 !!! warning "Warning" 
-	Changing banner info and image through GCR is broken, especially for transparent banners, so for that we recommend [DAT Texture Wizard](https://www.lbmwiki.net/tools/DAT_TW).
+	Changing banner info and image through GCR is broken, especially for transparent banners, so for that we recommend [DAT Texture Wizard](https://www.lbmwiki.net/tool_pages/DAT_TW).
 
 GCRebuilder (or GCR for short) was created by BSV.
 

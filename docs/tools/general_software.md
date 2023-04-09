@@ -26,11 +26,11 @@ The software here is not specific to the game and can/is used for hacking/editin
 
 ## For extracting/repacking an ISO's root folder, as well as modifying banner data.
 
-[DAT Texture Wizard :material-arrow-right: ](tool_pages/DAT_TW){ .md-button }
+[DAT Texture Wizard :material-arrow-right: ](tool_pages/DAT_TW.md){ .md-button }
 
 ## For extracting an ISO into a root folder and vice versa.
 
-[GCRebuilder :material-arrow-right: ](tool_pages/GCR){ .md-button }
+[GCRebuilder :material-arrow-right: ](tool_pages/GCR.md){ .md-button }
 <br>
 <br>
 <br>
