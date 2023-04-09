@@ -8,11 +8,17 @@ nav:
     - JMP Tables: documentation/JMP.md
     - Flags: documentation/Flags.md
     - Locations & Doors: documentation/Maps_Rooms_Doors.md
-    - Parameter files: documentation/Parameters.md
+    - Parameter files: documentation/Parameters.md  
   - Tutorials:
     - Main: tutorials.md
-  - Game Knowledge: gameknowledge.md
-  - Tools: tools.md
+  - Research:
+    - Main: research.md
+    - File formats: research/file_formats.md
+  - Tools: 
+    - Main: tools.md
+    - General software: tools/general_software.md
+    - file conversion tools: tools/convert_tools.md
+    - editing tools: tools/edit_tools.md
 theme:
   name: material
   logo: assets/favicon.png

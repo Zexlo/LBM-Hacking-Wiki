@@ -1,8 +1,5 @@
 #JMP
 	
-##Author(s)
-opeyx
-
 ##Description
 JMP files contain info about characters, enemies, furniture, and other objects for each map.
 

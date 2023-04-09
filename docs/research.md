@@ -6,15 +6,7 @@ hide:
 !!! warn "Note"
 	This page should be considered as a work in progress. Generally, this should help with understanding how various parts of the game work, and that understanding may not always be 100% correct.
 
-## File Formats
-Luigi's Mansion has a few proprietary file formats, some of which were used in other Nintendo games, while others are unique to this game in particular. Information about each can be found below.
-
-[JMP - Tracks character, enemy, furniture, and object info for each map.](gameknowledge/file_formats/JMP.md){ .md-button } 
-
-[TXP - For animating texture patterns by switching texture indices in MDL file materials.](gameknowledge/file_formats/TXP.md){ .md-button } 
-
-##JMP
-###Observers
+##Observers
 One of the things that people seem to have the most trouble understanding is Observers, so here is a small rundown:
 
 Observers are essentially "mini-programs" that constantly ask the game questions about what the current state of the game is. (Eg: "Are all the ghosts in this wave captured yet?", "Is flag 23 turned on?"). 
