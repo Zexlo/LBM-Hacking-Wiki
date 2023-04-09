@@ -206,7 +206,7 @@ A list of all 255 flags in the game and their usage in JMap tables *(jmp)*, even
 
 === "Map Flags"
 
-    ## Map flags
+    ## Map Flags
 
     Once these flags are turned ON, they'll only stay that way while Luigi is still in the current map. If Luigi is warped to another map, or the player decides to turn off/soft-reset the game, all of these flags will reset to OFF unless certain ASM is forcing them to stay ON.
 
@@ -223,7 +223,7 @@ A list of all 255 flags in the game and their usage in JMap tables *(jmp)*, even
 
     	``` mermaid
     	graph LR
-    	  A(Flag Is ON) --> B((Turn Flag OFF)) --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
+    	  A(Flag Is ON) --> B{Turn Flag OFF} --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
         C & D & E & F --> H{Flag Is Still OFF}
     	```
 
