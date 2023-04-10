@@ -46,7 +46,12 @@ Change the value at any of the offsets to ```0E 52``` to reverse the ghosts' spa
 
 ##**Beta Spinning Coins by Ralf (Upside Down Bug Fix by 0wen)**
 
-At offset ```0xD50```, paste/write ```3C608000C0033D6CC03D0024EC21002AD03D0024A87C00A64815427C41700000```
+At offset ```0xD50```,
+
+paste/write ```3C608000C0033D6CC03D0024EC21002AD03D0024A87C00A64815427C41700000```
+
 At offset ```0x15402C```, paste/write ```3800BC00B01E005E```
+
 At offset ```0x154D40```, paste/write ```4BEABD70```
+
 (Credit: weirdboo, 0wen)
