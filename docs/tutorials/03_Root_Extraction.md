@@ -19,4 +19,4 @@ After that, navigate to Root → Save to convert those files back into a disc im
 
 Then you're ready to run your hack in Dolphin, or on actual hardware, like via Nintendont or Swiss.
 
-###[:material-arrow-left-bold-box: Back](02_Recommended_Tools.md) | [Next :material-arrow-right-bold-box:](04_Dolphin_Setup.md) { align=center }
+#[:material-arrow-left-bold-box: Back](02_Recommended_Tools.md) | [:material-hammer-screwdriver: Home](https://www.lbmwiki.net/tutorials) | [Next :material-arrow-right-bold-box:](04_Dolphin_Setup.md) { align=center }
