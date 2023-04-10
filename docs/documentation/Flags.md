@@ -5,7 +5,29 @@ hide:
 A list of all 255 flags in the game and their usage in JMap tables *(jmp)*, events, and ASM. Only the first 84 flags are able to be saved to the memory card. Flags **85** and above are temporary flags that will reset back to OFF if Luigi exits the current room/leaves the map, the game is reset, or the power is turned off. **NOTE: All DOL offsets listed below are for the NTSC-U version of Luigi's Mansion.**
 
 === "Savable Flags"
+
+    ##Savable Flags
+
     Once these flags are turned ON, they will stay that way unless turned off in an event. The state of these flags can be saved to the memory card, allowing the game to "remember" if certain things have happened before.
+
+    !!! example "Savable Flags (Flag OFF)"
+
+    	``` mermaid
+    	graph LR
+        Start --> A(Flag Is OFF)
+    	  A --> B((Turn Flag ON)) --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
+        C & D & E --> G(((Flag Is Still ON)))
+        F --> H{Flag Is Now OFF}
+    	```
+    !!! example "Savable Flags (Flag ON)"
+
+    	``` mermaid
+    	graph LR
+        Start --> A(Flag Is ON)
+    	  A --> B{Turn Flag OFF} --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
+        F --> G(((Flag Is Now ON)))
+        C & D & E --> H{Flag Is Still OFF}
+    	```
 
     | Flag #             | JMP Map # | JMP Files                                                            | Events                                               | ASM Turns Flag ON          | ASM Executes When Flag Is ON         | ASM Turns Flag Off | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
     |--------------------|-----------|----------------------------------------------------------------------|------------------------------------------------------|----------------------------|--------------------------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -104,7 +126,26 @@ A list of all 255 flags in the game and their usage in JMap tables *(jmp)*, even
 
 === "Room Flags"
 
+    ## Room Flags
+
     Once these flags are turned ON, they'll only be active for the current room Luigi is in. If Luigi exits the room, all of these flags will reset back to OFF unless certain ASM is forcing them to stay ON.
+
+    !!! example "Room Flags (Flag OFF)"
+
+    	``` mermaid
+    	graph LR
+    	  A(Flag Is OFF) --> B((Turn Flag ON)) --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
+        C & D & E & F --> H{Flag Is Now OFF}
+    	```
+
+    !!! example "Room Flags (Flag ON)"
+
+    	``` mermaid
+    	graph LR
+    	  A(Flag Is ON) --> B{Turn Flag OFF} --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
+        C & D & E & F --> H{Flag Is Still OFF}
+    	```
+
 
     | Flag #                      | JMP Map # | JMP Files                | Events                                                                                                     | ASM Turns Flag ON                                     | ASM Executes When Flag Is ON                                     | ASM Turns Flag Off           | Description                                                                                                                                                                                                                                                                                                                         |
     |-----------------------------|-----------|--------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -165,7 +206,26 @@ A list of all 255 flags in the game and their usage in JMap tables *(jmp)*, even
 
 === "Map Flags"
 
-    Once these flags are turned ON, they'll only stay that way while Luigi is still in the current map. If Luigi is warped to another map, or the player decides to turn off/soft-reset the game, all of these flags will reset back to OFF unless certain ASM is forcing them to stay ON.
+    ## Map Flags
+
+    Once these flags are turned ON, they'll only stay that way while Luigi is still in the current map. If Luigi is warped to another map, or the player decides to turn off/soft-reset the game, all of these flags will reset to OFF unless certain ASM is forcing them to stay ON.
+
+    !!! example "Map Flags (Flag OFF)"
+
+    	``` mermaid
+    	graph LR
+    	  A(Flag Is OFF) --> B((Turn Flag ON)) --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
+        C --> G(((Flag Is Still ON)))
+        D & E & F --> H{Flag Is Now OFF}
+    	```
+
+    !!! example "Map Flags (Flag ON)"
+
+    	``` mermaid
+    	graph LR
+    	  A(Flag Is ON) --> B{Turn Flag OFF} --> C{{Leave Room}} & D{{Leave Map}} & E{{Save & Reset Game}} & F{{Don't Save & Reset Game}}
+        C & D & E & F --> H{Flag Is Still OFF}
+    	```
 
     | Flag #                      | JMP Map # | JMP Files                     | Events                    | ASM Turns Flag ON                                                                                                                                                                                                                                                            | ASM Executes When Flag Is ON | ASM Turns Flag Off                              | Description                                                                                                                                                                                                                                                                                                                                                                 |
     |-----------------------------|-----------|-------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
