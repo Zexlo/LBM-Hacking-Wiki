@@ -1,4 +1,4 @@
-#Changing Ghost Color
+#14 - Changing Ghost Color
 
 To change a ghost's color you must modify both the PRM, and the textures of the model.
 
@@ -40,4 +40,4 @@ With both the PRM and texture changed, the ghost's new color will look complete!
 !!! warning "Warning"
 		Some ghost models use multiple or duplicate body textures. If your texture edit doesn't appear, make sure you've edited the correct texture.
 
-###[Next :material-arrow-right-bold-box:](02_Recommended_Tools.md) { align=center }
+#[:material-arrow-left-bold-box: Back](13_Custom_events.md) | [:material-hammer-screwdriver: Home](https://www.lbmwiki.net/tutorials) | [Next :material-arrow-right-bold-box:](15_Custom_furniture.md) { align=center }

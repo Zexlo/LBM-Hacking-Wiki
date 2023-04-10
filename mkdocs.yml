@@ -3,19 +3,19 @@ nav:
   - Home:
     - Home: index.md
   - Documentation:
-    - Main: documentation.md
+    - Main page: documentation.md
     - Events: documentation/Events.md
     - JMP Tables: documentation/JMP.md
     - Flags: documentation/Flags.md
     - Locations & Doors: documentation/Maps_Rooms_Doors.md
     - Parameter files: documentation/Parameters.md  
   - Tutorials:
-    - Main: tutorials.md
+    - Tutorials: tutorials.md
   - Research:
-    - Main: research.md
+    - Main page: research.md
     - File formats: research/file_formats.md
   - Tools: 
-    - Main: tools.md
+    - Main page: tools.md
     - General software: tools/general_software.md
     - file conversion tools: tools/convert_tools.md
     - editing tools: tools/edit_tools.md
@@ -23,6 +23,7 @@ nav:
     - RAM: codes/RAM_codes.md
     - DOL: codes/DOL_codes.md
     - AR codes: codes/AR_codes.md
+
 theme:
   name: material
   logo: assets/favicon.png
