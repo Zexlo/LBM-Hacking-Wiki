@@ -1,7 +1,6 @@
 site_name: LBM Wiki
 nav:
-  - Home:
-    - Home: index.md
+  - Home: index.md
   - Documentation:
     - Main page: documentation.md
     - Events: documentation/Events.md
